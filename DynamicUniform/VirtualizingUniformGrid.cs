@@ -7,7 +7,7 @@ using System.Windows.Media;
 namespace DynamicUniform
 {
     /// <summary>
-    /// 虚拟化的WrapPanel
+    /// 虚拟化的UniformGrid
     /// </summary>
     public class VirtualizingUniformGrid : VirtualizingPanel, IScrollInfo
     {
