@@ -9,12 +9,13 @@
     Width="1200"
     Height="800"
     ResizeMode="CanMinimize"
+    Background="#252525"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Window.Resources>
         <Style x:Key="Style.SlideListBoxItem" TargetType="{x:Type ListBoxItem}">
             <Setter Property="FocusVisualStyle" Value="{x:Null}" />
-            <Setter Property="Margin" Value="2" />
+            <Setter Property="Margin" Value="1" />
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type ListBoxItem}">
@@ -28,7 +29,7 @@
 
         <ControlTemplate x:Key="Template.ListBox" TargetType="{x:Type ListBox}">
             <ScrollViewer
-                Margin="2"
+                Margin="1"
                 HorizontalScrollBarVisibility="Disabled"
                 PanningMode="VerticalOnly"
                 VerticalScrollBarVisibility="Auto">
@@ -71,6 +72,7 @@
             <TextBlock
                 Margin="0,0,5,0"
                 VerticalAlignment="Center"
+                Foreground="#FFFFFF"
                 Text="布局" />
             <ComboBox
                 x:Name="LayoutComboBox"
@@ -80,7 +82,9 @@
                 VerticalContentAlignment="Center"
                 SelectedIndex="0"
                 SelectionChanged="LayoutComboBox_SelectionChanged">
+                <ComboBoxItem Content="1 * 1" Tag="1,1" />
                 <ComboBoxItem Content="2 * 2" Tag="2,2" />
+                <ComboBoxItem Content="3 * 3" Tag="3,3" />
                 <ComboBoxItem Content="4 * 4" Tag="4,4" />
                 <ComboBoxItem Content="4 * 8" Tag="4,8" />
             </ComboBox>
@@ -99,11 +103,12 @@
                 Margin="10,0,0,0"
                 Click="ClearDataBtn_Click"
                 Content="清空数据" />
+
+            <local:RanksLayout LayoutChanged="RanksLayout_OnLayoutChanged" Margin="10,0,0,0"/>
         </StackPanel>
-        <Grid Grid.Row="1" Background="#FFFFFF">
+        <Grid Grid.Row="1" Background="Gray">
             <ListBox
                 x:Name="ImageListBox"
-                Grid.Row="2"
                 Background="Transparent"
                 BorderThickness="0"
                 ItemContainerStyle="{StaticResource Style.SlideListBoxItem}"

@@ -12,24 +12,50 @@ namespace DynamicUniform
     public class VirtualizingUniformGrid : VirtualizingPanel, IScrollInfo
     {
         private readonly TranslateTransform _trans = new TranslateTransform();
+
         public VirtualizingUniformGrid()
         {
             this.RenderTransform = _trans;
         }
 
         #region DependencyProperties
-        public static readonly DependencyProperty ChildWidthProperty = DependencyProperty.RegisterAttached("ChildWidth", typeof(double), typeof(VirtualizingUniformGrid), new FrameworkPropertyMetadata(0.0, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange));
+        public static readonly DependencyProperty ChildWidthProperty = DependencyProperty.RegisterAttached(
+            "ChildWidth",
+            typeof(double),
+            typeof(VirtualizingUniformGrid),
+            new FrameworkPropertyMetadata(0.0, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange)
+        );
 
-        public static readonly DependencyProperty ChildHeightProperty = DependencyProperty.RegisterAttached("ChildHeight", typeof(double), typeof(VirtualizingUniformGrid), new FrameworkPropertyMetadata(10.0, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange));
+        public static readonly DependencyProperty ChildHeightProperty = DependencyProperty.RegisterAttached(
+            "ChildHeight",
+            typeof(double),
+            typeof(VirtualizingUniformGrid),
+            new FrameworkPropertyMetadata(10.0, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange)
+        );
 
         //鼠标每一次滚动 UI上的偏移
-        public static readonly DependencyProperty ScrollOffsetProperty = DependencyProperty.RegisterAttached("ScrollOffset", typeof(int), typeof(VirtualizingUniformGrid), new PropertyMetadata(10));
+        public static readonly DependencyProperty ScrollOffsetProperty = DependencyProperty.RegisterAttached(
+            "ScrollOffset",
+            typeof(int),
+            typeof(VirtualizingUniformGrid),
+            new PropertyMetadata(10)
+        );
 
         //列数
-        public static readonly DependencyProperty ColumnsProperty = DependencyProperty.RegisterAttached("Columns", typeof(int), typeof(VirtualizingUniformGrid), new FrameworkPropertyMetadata(1, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange));
+        public static readonly DependencyProperty ColumnsProperty = DependencyProperty.RegisterAttached(
+            "Columns",
+            typeof(int),
+            typeof(VirtualizingUniformGrid),
+            new FrameworkPropertyMetadata(1, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange)
+        );
 
         //行数
-        public static readonly DependencyProperty RowsProperty = DependencyProperty.RegisterAttached("Rows", typeof(int), typeof(VirtualizingUniformGrid), new FrameworkPropertyMetadata(1, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange));
+        public static readonly DependencyProperty RowsProperty = DependencyProperty.RegisterAttached(
+            "Rows",
+            typeof(int),
+            typeof(VirtualizingUniformGrid),
+            new FrameworkPropertyMetadata(1, FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange)
+        );
 
         public int ScrollOffset
         {
@@ -59,7 +85,7 @@ namespace DynamicUniform
             get => Convert.ToInt32(GetValue(RowsProperty));
             set => SetValue(RowsProperty, value);
         }
-        
+
         #endregion
 
         private int GetItemCount(DependencyObject element)
@@ -68,7 +94,7 @@ namespace DynamicUniform
             return itemsControl.HasItems ? itemsControl.Items.Count : 0;
         }
 
-        private int CalculateChildrenCloumn(Size availableSize)
+        private int CalculateChildrenColumn(Size availableSize)
         {
             if (double.IsInfinity(availableSize.Width))
                 return Columns;
@@ -88,7 +114,7 @@ namespace DynamicUniform
 
         private int CalculateChildrenRow(Size availableSize)
         {
-            return Rows;         
+            return Rows;
         }
 
         /// <summary>
@@ -99,7 +125,7 @@ namespace DynamicUniform
         /// <returns></returns>
         private Size CalculateExtent(Size availableSize, int itemsCount)
         {
-            int childPerRow = CalculateChildrenCloumn(availableSize); //现有宽度下 一行可以最多容纳多少个
+            int childPerRow = CalculateChildrenColumn(availableSize); //现有宽度下 一行可以最多容纳多少个
             return new Size(childPerRow * this.ChildWidth, this.ChildHeight * Math.Ceiling(Convert.ToDouble(itemsCount) / childPerRow));
         }
 
@@ -109,7 +135,7 @@ namespace DynamicUniform
         /// <param name="availableSize"></param>
         private void UpdateScrollInfo(Size availableSize)
         {
-            var extent = CalculateExtent(availableSize, GetItemCount(this));//extent 自己实际需要
+            var extent = CalculateExtent(availableSize, GetItemCount(this)); //extent 自己实际需要
             if (extent != this._extent)
             {
                 this._extent = extent;
@@ -121,6 +147,7 @@ namespace DynamicUniform
                 this.ScrollOwner.InvalidateScrollInfo();
             }
         }
+
         /// <summary>
         /// 获取所有item，在可视区域内第一个item和最后一个item的索引
         /// </summary>
@@ -128,7 +155,7 @@ namespace DynamicUniform
         /// <param name="lastIndex"></param>
         private void GetVisibleRange(ref int firstIndex, ref int lastIndex)
         {
-            int childPerRow = CalculateChildrenCloumn(this._extent);
+            int childPerRow = CalculateChildrenColumn(this._extent);
             firstIndex = Convert.ToInt32(Math.Floor(this._offset.Y / this.ChildHeight)) * childPerRow;
             lastIndex = Convert.ToInt32(Math.Ceiling((this._offset.Y + this._viewPort.Height) / this.ChildHeight)) * childPerRow - 1;
             int itemsCount = GetItemCount(this);
@@ -169,15 +196,11 @@ namespace DynamicUniform
                                 generator.Remove(childGeneratorPosition, 1);
                                 RemoveInternalChildRange(i, 1);
                             }
-                            catch (InvalidOperationException)
-                            {
-                            }
+                            catch (InvalidOperationException) { }
                         }
                     }
                 }
-                catch (InvalidOperationException)
-                {
-                }
+                catch (InvalidOperationException) { }
             }
         }
 
@@ -189,9 +212,9 @@ namespace DynamicUniform
         protected override Size MeasureOverride(Size availableSize)
         {
             // 计算每行子项数量和子项宽度
-            int childrenCloumn = CalculateChildrenCloumn(availableSize);
+            int childrenCloumn = CalculateChildrenColumn(availableSize);
             ChildWidth = availableSize.Width / childrenCloumn;
-            int childrenRow =  CalculateChildrenRow(availableSize);
+            int childrenRow = CalculateChildrenRow(availableSize);
             ChildHeight = availableSize.Height / childrenRow;
             //availableSize更新后，更新滚动条
             UpdateScrollInfo(availableSize);
@@ -206,11 +229,11 @@ namespace DynamicUniform
 
             //获得第一个可被显示的item的位置
             GeneratorPosition startPosition = generator.GeneratorPositionFromIndex(firstVisibleIndex);
-            int childIndex = (startPosition.Offset == 0) ? startPosition.Index : startPosition.Index + 1;//startPosition在children中的索引
+            int childIndex = (startPosition.Offset == 0) ? startPosition.Index : startPosition.Index + 1; //startPosition在children中的索引
             using (generator.StartAt(startPosition, GeneratorDirection.Forward, true))
             {
                 int itemIndex = firstVisibleIndex;
-                while (itemIndex <= lastVisibleIndex)//生成lastVisibleIndex-firstVisibleIndex个item
+                while (itemIndex <= lastVisibleIndex) //生成lastVisibleIndex-firstVisibleIndex个item
                 {
                     var child = generator.GenerateNext(out var newlyRealized) as UIElement;
                     if (newlyRealized)
@@ -245,7 +268,10 @@ namespace DynamicUniform
             }
 
             CleanUpItems(firstVisibleIndex, lastVisibleIndex);
-            return new Size(double.IsInfinity(availableSize.Width) ? 0 : availableSize.Width, double.IsInfinity(availableSize.Height) ? 0 : availableSize.Height);
+            return new Size(
+                double.IsInfinity(availableSize.Width) ? 0 : availableSize.Width,
+                double.IsInfinity(availableSize.Height) ? 0 : availableSize.Height
+            );
         }
 
         private Thickness GetItemMargin()
@@ -261,13 +287,13 @@ namespace DynamicUniform
         {
             var generator = this.ItemContainerGenerator;
             UpdateScrollInfo(finalSize);
-            int childPerRow = CalculateChildrenCloumn(finalSize);
+            int childPerRow = CalculateChildrenColumn(finalSize);
             double availableItemWidth = finalSize.Width / childPerRow;
             for (int i = 0; i <= this.Children.Count - 1; i++)
             {
                 var child = this.Children[i];
                 int itemIndex = generator.IndexFromGeneratorPosition(new GeneratorPosition(i, 0));
-                int row = itemIndex / childPerRow;//current row
+                int row = itemIndex / childPerRow; //current row
                 int column = itemIndex % childPerRow;
                 double xCorrdForItem = 0;
 
@@ -278,23 +304,27 @@ namespace DynamicUniform
             }
             return finalSize;
         }
+
         protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)
         {
             base.OnRenderSizeChanged(sizeInfo);
             this.SetVerticalOffset(this.VerticalOffset);
         }
+
         protected override void OnClearChildren()
         {
             base.OnClearChildren();
             this.SetVerticalOffset(0);
         }
+
         protected override void BringIndexIntoView(int index)
         {
             if (index < 0 || index >= Children.Count)
                 throw new ArgumentOutOfRangeException();
-            int row = index / CalculateChildrenCloumn(RenderSize);
+            int row = index / CalculateChildrenColumn(RenderSize);
             SetVerticalOffset(row * this.ChildHeight);
         }
+
         #region IScrollInfo Interface
         public bool CanVerticallyScroll { get; set; }
         public bool CanHorizontallyScroll { get; set; }
@@ -318,7 +348,7 @@ namespace DynamicUniform
 
         public void LineDown()
         {
-            this.SetVerticalOffset(this.VerticalOffset + this.ScrollOffset);
+            this.SetVerticalOffset(this.VerticalOffset + this.ChildHeight);
         }
 
         public void LineLeft()
@@ -333,7 +363,7 @@ namespace DynamicUniform
 
         public void LineUp()
         {
-            this.SetVerticalOffset(this.VerticalOffset - this.ScrollOffset);
+            this.SetVerticalOffset(this.VerticalOffset - this.ChildHeight);
         }
 
         public Rect MakeVisible(Visual visual, Rect rectangle)
@@ -353,7 +383,7 @@ namespace DynamicUniform
 
         public void MouseWheelRight()
         {
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
         public void MouseWheelUp()
@@ -408,13 +438,19 @@ namespace DynamicUniform
 
             if (scrollDown)
             {
+                var delta = offset - VerticalOffset;
+                var count = (int)Math.Round(delta / ChildHeight);
                 // 向下翻页：滚动到下一页
-                newOffset = this.VerticalOffset + this._viewPort.Height;
+                //newOffset = this.VerticalOffset + this._viewPort.Height;
+                newOffset = this.VerticalOffset + this.ChildHeight * count;
             }
             else if (scrollUp)
             {
+                var delta = VerticalOffset - offset;
+                var count = (int)Math.Round(delta / ChildHeight);
                 // 向上翻页：滚动到上一页
-                newOffset = this.VerticalOffset - this._viewPort.Height;
+                //newOffset = this.VerticalOffset - this._viewPort.Height;
+                newOffset = this.VerticalOffset - this.ChildHeight * count;
             }
 
             // 再次边界检查

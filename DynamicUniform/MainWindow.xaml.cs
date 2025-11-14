@@ -122,5 +122,10 @@ namespace DynamicUniform
         {
 
         }
+
+        private void RanksLayout_OnLayoutChanged(object sender, (int rows, int columns) e)
+        {
+            UpdateUniformGridLayout(e.rows, e.columns);
+        }
     }
 }
