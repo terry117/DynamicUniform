@@ -3,36 +3,71 @@
   "WorkspaceRootPath": "D:\\Demo\\DynamicUniform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\rankslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\rankslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\controls\\serieslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\serieslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\rankslayout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\rankslayout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\controls\\picturelayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\picturelayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\controls\\picturelayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\picturelayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\controls\\serieslayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\serieslayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\controls\\virtualizinguniformgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\virtualizinguniformgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|d:\\demo\\dynamicuniform\\dynamicuniform\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\controls\\rankslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\rankslayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\converter\\scrollbarvisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\converter\\scrollbarvisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\converter\\firstimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\converter\\firstimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\converter\\indexcountconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\converter\\indexcountconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\seriesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\seriesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\virtualizinguniformgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\virtualizinguniformgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|D:\\Demo\\DynamicUniform\\dynamicuniform\\controls\\rankslayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98883C8-025E-4D7F-8288-9F41744F9ABD}|DynamicUniform\\DynamicUniform.csproj|solutionrelative:dynamicuniform\\controls\\rankslayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gamma\\AppData\\Local\\Temp\\.vsdbgsrc\\d6f90d3e8d56a2db3b6fdcc44ea5be4b7f7c9630f4a79e01028e2d4ebed347c1\\ControlTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +77,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SeriesLayout.xaml.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\SeriesLayout.xaml.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\SeriesLayout.xaml.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\SeriesLayout.xaml.cs",
+              "RelativeToolTip": "DynamicUniform\\Controls\\SeriesLayout.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA7wFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T03:44:01.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeriesLayout.xaml",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\SeriesLayout.xaml",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\SeriesLayout.xaml",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\SeriesLayout.xaml*",
+              "RelativeToolTip": "DynamicUniform\\Controls\\SeriesLayout.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T03:37:24.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VirtualizingUniformGrid.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\VirtualizingUniformGrid.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\VirtualizingUniformGrid.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\VirtualizingUniformGrid.cs",
+              "RelativeToolTip": "DynamicUniform\\Controls\\VirtualizingUniformGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:55:18.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PictureLayout.xaml",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\PictureLayout.xaml",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\PictureLayout.xaml",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\PictureLayout.xaml",
+              "RelativeToolTip": "DynamicUniform\\Controls\\PictureLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T07:54:07.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RanksLayout.xaml.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\RanksLayout.xaml.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\RanksLayout.xaml.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\RanksLayout.xaml.cs",
+              "RelativeToolTip": "DynamicUniform\\Controls\\RanksLayout.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA2wMYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:40:35.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RanksLayout.xaml",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\RanksLayout.xaml",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\RanksLayout.xaml",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\RanksLayout.xaml",
+              "RelativeToolTip": "DynamicUniform\\Controls\\RanksLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T07:40:04.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PictureLayout.xaml.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\PictureLayout.xaml.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Controls\\PictureLayout.xaml.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Controls\\PictureLayout.xaml.cs",
+              "RelativeToolTip": "DynamicUniform\\Controls\\PictureLayout.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAIwIIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:39:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\App.xaml.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml.cs",
+              "RelativeToolTip": "DynamicUniform\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T02:34:12.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml",
               "RelativeDocumentMoniker": "DynamicUniform\\App.xaml",
               "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml",
               "RelativeToolTip": "DynamicUniform\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T01:00:25.746Z",
+              "WhenOpened": "2025-11-19T02:33:58.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DynamicUniform\\App.xaml.cs",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\App.xaml.cs",
-              "RelativeToolTip": "DynamicUniform\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ScrollBarVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\ScrollBarVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Converter\\ScrollBarVisibilityConverter.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\ScrollBarVisibilityConverter.cs",
+              "RelativeToolTip": "DynamicUniform\\Converter\\ScrollBarVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T01:00:23.559Z",
+              "WhenOpened": "2025-11-18T06:41:57.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DynamicUniform\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DynamicUniform\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "SeriesItem.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\SeriesItem.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\SeriesItem.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\SeriesItem.cs",
+              "RelativeToolTip": "DynamicUniform\\SeriesItem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T06:24:28.511Z",
+              "WhenOpened": "2025-11-17T07:55:22.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "FirstImageConverter.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\FirstImageConverter.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Converter\\FirstImageConverter.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\FirstImageConverter.cs",
+              "RelativeToolTip": "DynamicUniform\\Converter\\FirstImageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:43:47.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RelayCommand.cs",
               "RelativeDocumentMoniker": "DynamicUniform\\RelayCommand.cs",
               "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RelayCommand.cs",
               "RelativeToolTip": "DynamicUniform\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T02:22:46.562Z",
+              "WhenOpened": "2025-11-17T10:18:20.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RanksLayout.xaml.cs",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RanksLayout.xaml.cs",
-              "RelativeDocumentMoniker": "DynamicUniform\\RanksLayout.xaml.cs",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RanksLayout.xaml.cs",
-              "RelativeToolTip": "DynamicUniform\\RanksLayout.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBYAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "IndexCountConverter.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\IndexCountConverter.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\Converter\\IndexCountConverter.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\Converter\\IndexCountConverter.cs",
+              "RelativeToolTip": "DynamicUniform\\Converter\\IndexCountConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T01:02:49.647Z",
+              "WhenOpened": "2025-11-17T11:03:51.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RanksLayout.xaml",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RanksLayout.xaml",
-              "RelativeDocumentMoniker": "DynamicUniform\\RanksLayout.xaml",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\RanksLayout.xaml",
-              "RelativeToolTip": "DynamicUniform\\RanksLayout.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-13T01:02:45.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DynamicUniform\\MainWindow.xaml",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml",
-              "RelativeToolTip": "DynamicUniform\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T02:36:51.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VirtualizingUniformGrid.cs",
-              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\VirtualizingUniformGrid.cs",
-              "RelativeDocumentMoniker": "DynamicUniform\\VirtualizingUniformGrid.cs",
-              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\VirtualizingUniformGrid.cs",
-              "RelativeToolTip": "DynamicUniform\\VirtualizingUniformGrid.cs",
-              "ViewState": "AgIAACMBAAAAAAAAAAA+wAoBAAARAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ControlTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\gamma\\AppData\\Local\\Temp\\.vsdbgsrc\\d6f90d3e8d56a2db3b6fdcc44ea5be4b7f7c9630f4a79e01028e2d4ebed347c1\\ControlTemplate.cs",
+              "ToolTip": "C:\\Users\\gamma\\AppData\\Local\\Temp\\.vsdbgsrc\\d6f90d3e8d56a2db3b6fdcc44ea5be4b7f7c9630f4a79e01028e2d4ebed347c1\\ControlTemplate.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAtwFMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:08:52.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T09:37:49.021Z"
             }
           ]
         },
@@ -170,6 +296,52 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "7469dcd3-f655-4144-a45f-bdd2a07dfe09",
+        "Display": 0,
+        "X": 192,
+        "Y": 198,
+        "Width": 1793,
+        "Height": 1051,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DynamicUniform\\MainWindow.xaml",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml",
+              "RelativeToolTip": "DynamicUniform\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T07:39:21.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DynamicUniform\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Demo\\DynamicUniform\\DynamicUniform\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DynamicUniform\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv0sAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:55:20.455Z",
+              "EditorCaption": ""
             }
           ]
         }

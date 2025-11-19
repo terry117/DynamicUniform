@@ -12,109 +12,21 @@
     Background="#252525"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    <Window.Resources>
-        <Style x:Key="Style.SlideListBoxItem" TargetType="{x:Type ListBoxItem}">
-            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
-            <Setter Property="Margin" Value="1" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
-                        <Border Background="#000000">
-                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <ControlTemplate x:Key="Template.ListBox" TargetType="{x:Type ListBox}">
-            <ScrollViewer
-                Margin="1"
-                HorizontalScrollBarVisibility="Disabled"
-                PanningMode="VerticalOnly"
-                VerticalScrollBarVisibility="Auto">
-                <local:VirtualizingUniformGrid
-                    Columns="4"
-                    FocusVisualStyle="{x:Null}"
-                    IsItemsHost="True"
-                    Rows="4" />
-            </ScrollViewer>
-        </ControlTemplate>
-
-        <DataTemplate x:Key="ImageItemTemplate">
-            <Border
-                Background="#000000"
-                BorderBrush="#000000"
-                BorderThickness="1">
-                <Grid>
-                    <Image Source="{Binding ImageSource}" Stretch="Uniform" />
-                    <TextBlock
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        FontSize="20"
-                        Foreground="#FFFFFF"
-                        Text="{Binding ImageText}" />
-                </Grid>
-
-            </Border>
-        </DataTemplate>
-    </Window.Resources>
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <StackPanel
-            Margin="5"
-            HorizontalAlignment="Left"
-            Orientation="Horizontal">
-            <TextBlock
-                Margin="0,0,5,0"
-                VerticalAlignment="Center"
-                Foreground="#FFFFFF"
-                Text="布局" />
-            <ComboBox
-                x:Name="LayoutComboBox"
-                Grid.Row="0"
-                Width="100"
-                Height="30"
-                VerticalContentAlignment="Center"
-                SelectedIndex="0"
-                SelectionChanged="LayoutComboBox_SelectionChanged">
-                <ComboBoxItem Content="1 * 1" Tag="1,1" />
-                <ComboBoxItem Content="2 * 2" Tag="2,2" />
-                <ComboBoxItem Content="3 * 3" Tag="3,3" />
-                <ComboBoxItem Content="4 * 4" Tag="4,4" />
-                <ComboBoxItem Content="4 * 8" Tag="4,8" />
-            </ComboBox>
-
-            <Button
-                x:Name="AddTestDataBtn"
-                Width="100"
-                Height="30"
-                Margin="20,0,0,0"
-                Click="AddTestDataBtn_Click"
-                Content="添加测试数据" />
-            <Button
-                x:Name="ClearDataBtn"
-                Width="80"
-                Height="30"
-                Margin="10,0,0,0"
-                Click="ClearDataBtn_Click"
-                Content="清空数据" />
-
-            <local:RanksLayout LayoutChanged="RanksLayout_OnLayoutChanged" Margin="10,0,0,0"/>
+            Margin="5" HorizontalAlignment="Left" Orientation="Horizontal">
+            <local:RanksLayout
+                Title="序列" Margin="10,0,0,0" LayoutChanged="SeriesRanksLayout_OnLayoutChanged" />
+            <local:RanksLayout
+                Title="图像" Margin="10,0,0,0" LayoutChanged="PictureRanksLayout_OnLayoutChanged" />
         </StackPanel>
-        <Grid Grid.Row="1" Background="Gray">
-            <ListBox
-                x:Name="ImageListBox"
-                Background="Transparent"
-                BorderThickness="0"
-                ItemContainerStyle="{StaticResource Style.SlideListBoxItem}"
-                ItemTemplate="{StaticResource ImageItemTemplate}"
-                SelectionMode="Single"
-                Template="{StaticResource Template.ListBox}" />
+        <Grid
+            Grid.Row="1" Background="Gray">
+            <local:SeriesRanksLayout x:Name="SeriesRanksLayout" />
         </Grid>
     </Grid>
 </Window>
